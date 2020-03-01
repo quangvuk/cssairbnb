@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+}
+
+.top-content {
+    width: 100%;
+    background-image: url(https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    padding: 8px 16px;
+}
+
+.menu li:hover {
+    background-color : #eee;
+}
+
+.book-form {
+    width: 320px;
+    height: 320px;
+    background-color:#fff;
+    margin: 15px;
+    border-radius: 8px;
+    margin-left: 100px;
+    padding:15px;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.exp-component {
+    display:flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    height: 120px;
+}
+.exp-image {
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 120px;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.exp-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 150px;
+}
+
+
+
+
