@@ -20,18 +20,21 @@ body {
 .menu {
     display: flex;
     list-style: none;
+    color: #fff;
 
 }
 
 .menu li {
     padding: 8px 16px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0);
 }
 
 .menu li:hover {
-    background-color : #eee;
+    
+    border-bottom:1px solid #eee ;
 }
 
-.book-form {
+.main-content {  
     width: 320px;
     height: 320px;
     background-color:#fff;
@@ -41,10 +44,30 @@ body {
     padding:15px;
 }
 
+.book-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .explore {
     display: flex;
     justify-content: space-evenly;
 }
+
+.input-form {
+    display: flex;
+    
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight:;
+
+}
+
 
 
 
